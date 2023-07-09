@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prüfungsverwaltung - Prüfungsübersicht</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.scss" />
+    <script src="main.js"></script>
+  </head>
+  <body class="p-4">
+    <!-- create logout button that leads to index.html-->
+    <div>
+      <a class="btn btn-primary" href="./index.html" role="button">Logout</a>
+    </div>
+    <div class="text-center">
+      <img
+        src="HSLogo.png"
+        alt="HSLogo"
+        class="logoindex"
+        width="150px"
+        height="150px"
+      />
+    </div>
+
+    <div>
+      <h1 class="text-center">Prüfungsverwaltung</h1>
+    </div>
+    <div>
+      <h2 class="text-center">Prüfungsübersicht</h2>
+    </div>
+    <div>
+      <h3 class="text-center">Prüfungen</h3>
+    </div>
+    <!--Chebox for every exam-->
+    <ul class="list-group">
+      <li class="list-group-item">
+        <input
+          type="checkbox"
+          id="checkbox1"
+          name="checkbox1"
+          value="checkbox1"
+        />
+        <label for="checkbox1">Grundlagen BWL</label>
+      </li>
+      <li class="list-group-item">
+        <input
+          type="checkbox"
+          id="checkbox2"
+          name="checkbox2"
+          value="checkbox2"
+        />
+        <label for="checkbox2">Grundlagen VWL</label>
+      </li>
+      <li class="list-group-item">
+        <input
+          type="checkbox"
+          id="checkbox3"
+          name="checkbox3"
+          value="checkbox3"
+        />
+        <label for="checkbox3">Grundlagen Recht</label>
+      </li>
+      <li class="list-group-item">
+        <input
+          type="checkbox"
+          id="checkbox4"
+          name="checkbox4"
+          value="checkbox4"
+        />
+        <label for="checkbox4">Grundlagen Mathematik</label>
+      </li>
+      <li class="list-group-item">
+        <input
+          type="checkbox"
+          id="checkbox5"
+          name="checkbox5"
+          value="checkbox5"
+        />
+        <label for="checkbox5">Grundlagen Informatik</label>
+      </li>
+      <li class="list-group-item">
+        <input
+          type="checkbox"
+          id="checkbox6"
+          name="checkbox6"
+          value="checkbox6"
+        />
+        <label for="checkbox6">Grundlagen Wirtschaftsinformatik</label>
+      </li>
+      <li class="list-group-item">
+        <input
+          type="checkbox"
+          id="checkbox7"
+          name="checkbox7"
+          value="checkbox7"
+        />
+        <label for="checkbox7">Grundlagen Wirtschaftsingenieurwesen</label>
+      </li>
+      <li class="list-group-item">
+        <input
+          type="checkbox"
+          id="checkbox8"
+          name="checkbox8"
+          value="checkbox8"
+        />
+        <label for="checkbox8">Grundlagen Wirtschaftspsychologie</label>
+      </li>
+    </ul>
+    <!--create button that leads to the next page-->
+    <div>
+      <a class="btn btn-primary" href="./terminvergabe.html" role="button"
+        >Terminvergabe</a
+      >
+    </div>
+  </body>
+</html>
